@@ -27,9 +27,25 @@ function App() {
           <div className='scoreboarddiv'>
 
             <div className='scoreboard'>
+
+
               <button className='count' onClick={() => setCount((count) => count + 1)}>
                   {count}
               </button>
+              <div>
+
+                  <p className='title'> Worten Tech</p>
+
+              </div>
+
+              <div>
+
+                  <p className='title'> Garrantia</p>
+
+              </div>
+
+
+
             </div>
 
           </div>
