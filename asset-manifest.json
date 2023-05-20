@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/wortenscore/static/css/main.47e5ed41.css",
-    "main.js": "/wortenscore/static/js/main.e0dd634b.js",
+    "main.css": "/wortenscore/static/css/main.f385ccef.css",
+    "main.js": "/wortenscore/static/js/main.81ccbd7c.js",
     "static/js/787.f9835355.chunk.js": "/wortenscore/static/js/787.f9835355.chunk.js",
     "static/media/background.jpg": "/wortenscore/static/media/background.0dc48c8f0d18ef8ea0a3.jpg",
     "static/media/Worten-red.png": "/wortenscore/static/media/Worten-red.990dd2c43fe86dcbbc50.png",
     "index.html": "/wortenscore/index.html",
-    "main.47e5ed41.css.map": "/wortenscore/static/css/main.47e5ed41.css.map",
-    "main.e0dd634b.js.map": "/wortenscore/static/js/main.e0dd634b.js.map",
+    "main.f385ccef.css.map": "/wortenscore/static/css/main.f385ccef.css.map",
+    "main.81ccbd7c.js.map": "/wortenscore/static/js/main.81ccbd7c.js.map",
     "787.f9835355.chunk.js.map": "/wortenscore/static/js/787.f9835355.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.47e5ed41.css",
-    "static/js/main.e0dd634b.js"
+    "static/css/main.f385ccef.css",
+    "static/js/main.81ccbd7c.js"
   ]
 }
