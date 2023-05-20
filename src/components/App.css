@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
+*{
+
+  user-select: none;
+  user-zoom: none;
+
+}
+
 .App {
   background-image: url("../imagens/background.jpg");
   background-position: center;
@@ -59,9 +66,29 @@
 
   font-size: 55px;
   line-height: 160px;
-  margin-left: 45px;
   color: aliceblue;
   text-shadow: 0px 2px 10px #1A1A1A;
+
+}
+
+.count{
+
+  font-size: 55px;
+  line-height: 160px;
+  height: 40px;
+  width: 60px;
+  color: rgb(254, 254, 254);
+  border: none;
+  text-shadow: 0px 2px 10px #1A1A1A;
+  background-color: rgba(0, 0, 0, 0);
+  transition: 1s ease;
+
+}
+
+.count:hoover{
+
+  background-color: rgba(240, 248, 255, 0.741);
+  border-radius: 10px;
 
 }
 
@@ -75,12 +102,24 @@
 
 }
 
-.Logos{
+.Logored{
 
   width: 288px;
   height: 288px;
   border-radius: 50%;
-  margin: 17%;
+  margin-left: 15%;
+  -webkit-box-shadow: 0px 0px 50px 25px rgba(0,0,0,0.29);
+  -moz-box-shadow: 0px 0px 50px 25px rgba(0,0,0,0.29);
+  box-shadow: 0px 0px 50px 25px rgba(0,0,0,0.29);
+
+}
+
+.Logoblue{
+
+  width: 288px;
+  height: 288px;
+  border-radius: 50%;
+  margin-left: 10%;
   -webkit-box-shadow: 0px 0px 50px 25px rgba(0,0,0,0.29);
   -moz-box-shadow: 0px 0px 50px 25px rgba(0,0,0,0.29);
   box-shadow: 0px 0px 50px 25px rgba(0,0,0,0.29);
