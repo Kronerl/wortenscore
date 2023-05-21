@@ -1,18 +1,32 @@
 import './App.css';
-import { useState } from 'react'
+import { useState,useEffect } from 'react'
 import Logored from '../imagens/Worten-red.png';
 import Logoblue from '../imagens/Worten-blue.png';
 import LogoX from '../imagens/X.png';
+import app from '../firebase';
+import { getFirestore,collection,getDocs} from "firebase/firestore";
 
 
 
 function App() {
   const [score_casa_loja, setscore_casa_loja] = useState(5)
   const [score_casa_resolve, setscore_casa_resolve] = useState(2)
-  const [score_tech_loja, setscore_tech_loja] = useState(9)
-  const [score_tech_resolve, setscore_tech_resolve] = useState(8)
+  const [score_tech_loja, setscore_tech_loja] = useState(10)
+  const [score_tech_resolve, setscore_tech_resolve] = useState(11)
   const [score_norton_loja, setscore_norton_loja] = useState(5)
   const [score_norton_resolve, setscore_norton_resolve] = useState(2)
+
+  const [scores, setScores] = useState([]);
+  const [Loading, setLoading] = useState(false);
+
+
+ 
+
+  
+
+
+
+  
 
   return (
     <div className="App">
