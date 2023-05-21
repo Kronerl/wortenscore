@@ -7,7 +7,12 @@ import LogoX from '../imagens/X.png';
 
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [score_casa_loja, setscore_casa_loja] = useState(5)
+  const [score_casa_resolve, setscore_casa_resolve] = useState(2)
+  const [score_tech_loja, setscore_tech_loja] = useState(9)
+  const [score_tech_resolve, setscore_tech_resolve] = useState(8)
+  const [score_norton_loja, setscore_norton_loja] = useState(5)
+  const [score_norton_resolve, setscore_norton_resolve] = useState(2)
 
   return (
     <div className="App">
@@ -34,7 +39,6 @@ function App() {
               </button> */}
               
 
-
                   <div className='score-wortencasa'>
 
                     <p className='title'> Worten Casa </p>
@@ -43,7 +47,7 @@ function App() {
                   <div className='scores'>
                     <div className='score-section'>
 
-                      <p className='score-font'> 5 </p>
+                      <p className='score-font' onClick={() => setscore_casa_loja((score_casa_loja) => score_casa_loja + 1)}> {score_casa_loja} </p>
 
                     </div>
                     <div className='score-section'>
@@ -53,7 +57,7 @@ function App() {
                     </div>
                     <div className='score-section'>
 
-                      <p className='score-font'> 2 </p>
+                      <p className='score-font' onClick={() => setscore_casa_resolve((score_casa_resolve) => score_casa_resolve + 1)}> {score_casa_resolve} </p>
 
                     </div>
                   </div>
@@ -70,7 +74,7 @@ function App() {
                 <div className='scores'>
                   <div className='score-section'>
 
-                    <p className='score-font'> 9 </p>
+                  <p className='score-font' onClick={() => setscore_tech_loja((score_tech_loja) => score_tech_loja + 1)}> {score_tech_loja} </p>
 
                   </div>
                   <div className='score-section'>
@@ -80,7 +84,7 @@ function App() {
                   </div>
                   <div className='score-section'>
 
-                    <p className='score-font'> 8 </p>
+                  <p className='score-font' onClick={() => setscore_tech_resolve((score_tech_resolve) => score_tech_resolve + 1)}> {score_tech_resolve} </p>
 
                   </div>
                 </div>
@@ -95,10 +99,10 @@ function App() {
                   <p className='title'> Norton </p>
 
                 </div>
-                <div className='scores'>
+                <div className='scores last'>
                   <div className='score-section'>
 
-                    <p className='score-font'> 5 </p>
+                    <p className='score-font' onClick={() => setscore_norton_loja((score_norton_loja) => score_norton_loja + 1)}> {score_norton_loja} </p>
 
                   </div>
                   <div className='score-section'>
@@ -108,7 +112,7 @@ function App() {
                   </div>
                   <div className='score-section'>
 
-                    <p className='score-font'> 2 </p>
+                  <p className='score-font' onClick={() => setscore_norton_resolve((score_norton_resolve) => score_norton_resolve + 1)}> {score_norton_resolve} </p>
 
                   </div>
                 </div>
