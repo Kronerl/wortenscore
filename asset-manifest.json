@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/wortenscore/static/css/main.4e935a1d.css",
-    "main.js": "/wortenscore/static/js/main.b5cabe53.js",
+    "main.js": "/wortenscore/static/js/main.776311b4.js",
     "static/js/787.f9835355.chunk.js": "/wortenscore/static/js/787.f9835355.chunk.js",
     "static/media/background.jpg": "/wortenscore/static/media/background.0dc48c8f0d18ef8ea0a3.jpg",
     "static/media/Worten-red.png": "/wortenscore/static/media/Worten-red.990dd2c43fe86dcbbc50.png",
     "static/media/X.png": "/wortenscore/static/media/X.1ffdcb54f52403faeecf.png",
     "index.html": "/wortenscore/index.html",
     "main.4e935a1d.css.map": "/wortenscore/static/css/main.4e935a1d.css.map",
-    "main.b5cabe53.js.map": "/wortenscore/static/js/main.b5cabe53.js.map",
+    "main.776311b4.js.map": "/wortenscore/static/js/main.776311b4.js.map",
     "787.f9835355.chunk.js.map": "/wortenscore/static/js/787.f9835355.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4e935a1d.css",
-    "static/js/main.b5cabe53.js"
+    "static/js/main.776311b4.js"
   ]
 }
