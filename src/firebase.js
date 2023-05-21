@@ -23,7 +23,6 @@ const app = initializeApp(firebaseConfig);
 // Initialize Cloud Firestore and get a reference to the service
 const db = getFirestore(app);
 
-//get colletion
 const querySnapshot = await getDocs(collection(db, "scores"));
 querySnapshot.forEach((doc) => {
   console.log(`${doc.id} => ${doc.data()}`);
