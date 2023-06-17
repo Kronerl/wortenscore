@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+*{
+
+  user-select: none;
+  user-zoom: none;
+  
+}
+
+body{
+
+  height: 100vh;
+  width: 100vw;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.App-blender{
+
+  background-image: url("../imagens/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+
+}
+
+.corpo{
+
+  height: 100%;
+  width: 100%;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.37);
+
+}
+
+.left-side{
+
+  height: 100%;
+  width: 23%;
+
+}
+
+.center-side{
+
+  height: 100%;
+  width: 54%;
+
+}
+
+.right-side{
+
+  height: 100%;
+  width: 23%;
+
+}
+
+.pontuacao{
+
+  height: 75%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.694);
+  border-radius: 35px;
+  -webkit-box-shadow: 0px 0px 55px 3px rgba(0,0,0,0.65);
+  -moz-box-shadow: 0px 0px 55px 3px rgba(0,0,0,0.65);
+  box-shadow: 0px 0px 55px 3px rgba(0,0,0,0.65);
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0.6rem;
+
+}
+
+.Logored{
+
+  width: 288px;
+  height: 288px;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 0px 50px 25px rgba(0,0,0,0.29);
+  -moz-box-shadow: 0px 0px 50px 25px rgba(0,0,0,0.29);
+  box-shadow: 0px 0px 50px 25px rgba(0,0,0,0.29);
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.Logoblue{
+
+  width: 288px;
+  height: 288px;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 0px 50px 25px rgba(0,0,0,0.29);
+  -moz-box-shadow: 0px 0px 50px 25px rgba(0,0,0,0.29);
+  box-shadow: 0px 0px 50px 25px rgba(0,0,0,0.29);
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.audiobtn{
+
+  position: absolute;
+  top: 85%;
+  left: 95%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+
+
+}
+
+.LogoX{
+
+  height: 20px;
+  width: 20px;
+  filter: brightness(0) invert(1);
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.casa-section{
+
+  height: calc(100%/3);
+  width: 100%;
+  padding: 0px;
+
+}
+
+.tech-section{
+
+  height: calc(100%/3);
+  width: 100%;
+
+}
+
+.norton-section{
+
+  height: calc(100%/3);
+  width: 100%;
+
+}
+
+.category-title{
+
+  height: 30%;
+  width: 100%;
+  text-align: center;
+
+}
+
+.score-section{
+
+  height: 70%;
+  width: 100%;
+  display: flex;
+
+}
+
+.in-score-section{
+
+  width: calc(100%/3);
+  height: 100%;
+
+}
+
+.categorias{
+
+  font-family: 'Poppins', sans-serif;
+  font-size: 3rem;
+  margin: 0;
+  color: aliceblue;
+  position: relative;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.scores{
+
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  font-size: 3rem;
+  margin: 0;
+  padding-top: 0.7rem;
+  color: aliceblue;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+
+}
+
