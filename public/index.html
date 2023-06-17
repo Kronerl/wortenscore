@@ -1,165 +1,43 @@
 <!DOCTYPE html>
-<html lang="pt" dir="ltr">
+<html lang="en">
   <head>
-    <link rel = "stylesheet" href = "style.css">
-    <link rel = "icon" type = "image/png" href = "./imagens/Worten_Logo.png">
-    <meta charset="utf-8">
-    
-    
+    <meta charset="utf-8" />
+    <link rel="icon" href="./Worten-red.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Serviços"
+    />
+    <link rel="apple-touch-icon" href="./Worten-red.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="./Worten-red.png" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
     <title>Worten Champions</title>
   </head>
   <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
 
-  <!-- Editar menu -->
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
 
-  
-      <div class="App-blender">
-        
-        <div class="corpo">
-          <audio id="myAudio">
-            <source src="../imagens/soccer-stadium-10-6709.mp3" type="audio/mp3">
-  
-             <p> O navegador não suporta reprodução de audio. </p>
-  
-          </audio>
-          <p id="audioButton" class="audiobtn" onclick="toggleAudio()">
-        
-              <img class="LogoX" src="../imagens/sound.png" />
-  
-          </p>
-          <div class="left-side">
-
-            <img class="Logored" src="../imagens/Worten-red.png" />
-
-          </div>
-          <div class="center-side">
-
-            <div class="pontuacao">
-
-
-              <div class="casa-section">
-                <div class="category-title">
-                  
-                  <p class="categorias"> Casa </p>
-
-                </div>
-                <div class="score-section">
-
-
-                  <div class="in-score-section">
-
-                    <p class="scores"> 2 </p>
-
-                  </div>
-                  <div class="in-score-section">
-
-                    <img class="LogoX" src="../imagens/X.png" />
-
-                  </div>
-                  <div class="in-score-section">
-
-                    <p class="scores"> 0 </p>
-
-                  </div>
-
-
-                </div>
-              </div>
-
-
-              <div class="tech-section">
-                <div class="category-title">
-                  
-                  <p class="categorias"> Tech </p>
-
-                </div>
-                <div class="score-section">
-
-
-                  <div class="in-score-section">
-
-                    <p class="scores"> 0 </p>
-
-                  </div>
-                  <div class="in-score-section">
-
-                    <img class="LogoX" src="../imagens/X.png" />
-
-                  </div>
-                  <div class="in-score-section">
-
-                    <p class="scores"> 5 </p>
-
-                  </div>
-
-
-                </div>
-              </div>
-
-
-              <div class="norton-section">
-                <div class="category-title">
-                  
-                  <p class="categorias"> Norton </p>
-
-
-                </div>
-                <div class="score-section">
-
-
-                  <div class="in-score-section">
-
-                    <p class="scores"> 1 </p>
-
-                  </div>
-                  <div class="in-score-section">
-
-                    <img class="LogoX" src="../imagens/X.png" />
-
-                  </div>
-                  <div class="in-score-section">
-
-                    <p class="scores"> 1 </p>
-
-                  </div>
-
-
-                </div>
-              </div>
-
-
-            </div> 
-          </div>
-          <div class="right-side">
-
-            <img class="Logoblue" src="../imagens/Worten-blue.png" />
-
-          </div>
-
-        </div>
-        
-
-      </div>
-
-      <script>
-
-        var audio = document.getElementById("myAudio");
-        var audioButton = document.getElementById("audioButton");
-
-        function toggleAudio() {
-        if (audio.paused) {
-
-          audio.play();
-                
-        } else {
-
-          audio.pause();
-                  
-          }
-        }
-      </script>
-
-      
-    
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
   </body>
 </html>
