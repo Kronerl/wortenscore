@@ -34,7 +34,7 @@
 
 
           <div class="form-popup" id="myForm">
-            <form action="/action_page.php" class="form-container">
+            <form action="code.php" method="POST" class="form-container">
               <div class="pop-toppart">
                 <div class="pop-body" >
                   <div class="pop-top" >
@@ -98,10 +98,10 @@
               </div>
 
               <div class="pop-bottompart" >
-              <form action="code.php" method="POST">
-                <button type="submit" name="update_item" class="btn">Guardar</button>
+              
+                <button type="submit" class="btn">Guardar</button>
                 <button type="button" class="btn-cancel" onclick="closeForm()">Close</button>
-              </form>
+              
               </div>
             </form>
           </div>
